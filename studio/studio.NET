@@ -1,0 +1,51 @@
+Wire List
+
+<<< Component List >>>
+GPI                             N1             
+ValueTrig                       N2             
+GPI                             N3             
+ValueTrig                       N4             
+L298                            N5             
+GPI                             N6             
+ValueTrig                       N7             
+StringFormat                    N8             
+StringSerial                    N9             
+Ticker                          N10            
+FlipFlop                        N11            
+GPOUT                           N12            
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00013] NetN11_2
+        N11        2       2              OUTPUT      FlipFlop
+        N12        1       IN             INPUT       GPOUT
+
+[00012] NetN10_1
+        N10        1       OUT            OUTPUT      Ticker
+        N11        1       IN             INPUT       FlipFlop
+
+[00011] NetN8_2
+        N8         2       OUT            OUTPUT      StringFormat
+        N9         1       TX             INPUT       StringSerial
+
+[00009] NetN6_2
+        N6         2       RISING         OUTPUT      GPI
+        N7         1       Trigger        INPUT       ValueTrig
+
+[00006] NetN3_2
+        N3         2       RISING         OUTPUT      GPI
+        N4         1       Trigger        INPUT       ValueTrig
+
+[00004] NetN2_2
+        N2         2       OUT            OUTPUT      ValueTrig
+        N4         2       OUT            OUTPUT      ValueTrig
+        N5         1       ValueIn        INPUT       L298
+        N7         2       OUT            OUTPUT      ValueTrig
+        N8         1       IN             INPUT       StringFormat
+
+[00002] NetN1_2
+        N1         2       RISING         OUTPUT      GPI
+        N2         1       Trigger        INPUT       ValueTrig
+

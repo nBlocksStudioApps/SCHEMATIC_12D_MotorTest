@@ -1,0 +1,12 @@
+Test GPITrigger
+Test ConstTrigger
+x Test ValueTrig
+x Test L298
+x Test with LPC1768 LEDs
+x Test adding L298 breakout
+x Setup a motion rig
+x Video and gif of the motion rig
+x readme.md
+x Identify 'blind spots' in L298 control logic
+L298 Node update with state machine
+Nuceo STM32F401 setup
