@@ -1,14 +1,14 @@
 Designator,Comment,Parameter 1,nBlocksParameter1,Parameter 2,nBlocksParameter2,Parameter 3,nBlocksParameter3,ComponentLink1URL
 
-"N1","GPI","pinIn","D1","","","","","https://github.com/nBlocksStudioNodes/nblocks_gpi"
+"N1","GPI","pinIn","D8","","","","","https://github.com/nBlocksStudioNodes/nblocks_gpi"
 "N2","ValueTrig","OutValue","1","","","","","https://github.com/nBlocksStudioNodes/nblocks_ValueTrig"
 "N3","GPI","pinIn","D2","","","","","https://github.com/nBlocksStudioNodes/nblocks_gpi"
 "N4","ValueTrig","OutValue","2","","","","","https://github.com/nBlocksStudioNodes/nblocks_ValueTrig"
-"N5","L298","IN1","D7","IN2","D6","EN","D4","https://github.com/nBlocksStudioNodes/nblocks_l298"
-"N6","GPI","pinIn","D3","","","","","https://github.com/nBlocksStudioNodes/nblocks_gpi"
+"N5","L298","IN1","D7","IN2","D6","EN","D3","https://github.com/nBlocksStudioNodes/nblocks_l298"
+"N6","GPI","pinIn","D4","","","","","https://github.com/nBlocksStudioNodes/nblocks_gpi"
 "N7","ValueTrig","OutValue","0","","","","","https://github.com/nBlocksStudioNodes/nblocks_ValueTrig"
 "N8","StringFormat","formatString","""Value: %d\n""","","","","","https://github.com/nBlocksStudioNodes/nblocks_stringformat"
 "N9","StringSerial","pinTX","USBTX","pinRX","USBRX","","","https://github.com/nBlocksStudioNodes/nblocks_stringserial"
-"N10","Ticker","","100","","","","","https://github.com/nBlocksStudioNodes/nblocks_ticker"
+"N10","Ticker","","1000","","","","","https://github.com/nBlocksStudioNodes/nblocks_ticker"
 "N11","FlipFlop","triggerMode","0","","","","","https://github.com/nBlocksStudioNodes/nblocks_flipflop"
 "N12","GPOUT","pinOut","LED1","modeString","PullNone","Preset","1","https://github.com/nBlocksStudioNodes/nblocks_gpout"
