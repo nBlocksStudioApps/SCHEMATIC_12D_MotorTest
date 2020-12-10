@@ -1,12 +1,12 @@
 Wire List
 
 <<< Component List >>>
-GPI                             N1             
+GPIN                            N1             
 ValueTrig                       N2             
-GPI                             N3             
+GPIN                            N3             
 ValueTrig                       N4             
 L298                            N5             
-GPI                             N6             
+GPIN                            N6             
 ValueTrig                       N7             
 StringFormat                    N8             
 StringSerial                    N9             
@@ -31,11 +31,11 @@ GPOUT                           N12
         N9         1       TX             INPUT       StringSerial
 
 [00009] NetN6_2
-        N6         2       RISING         OUTPUT      GPI
+        N6         2       RISING         OUTPUT      GPIN
         N7         1       Trigger        INPUT       ValueTrig
 
 [00006] NetN3_2
-        N3         2       RISING         OUTPUT      GPI
+        N3         2       RISING         OUTPUT      GPIN
         N4         1       Trigger        INPUT       ValueTrig
 
 [00004] NetN2_2
@@ -46,6 +46,6 @@ GPOUT                           N12
         N8         1       IN             INPUT       StringFormat
 
 [00002] NetN1_2
-        N1         2       RISING         OUTPUT      GPI
+        N1         2       RISING         OUTPUT      GPIN
         N2         1       Trigger        INPUT       ValueTrig
 
