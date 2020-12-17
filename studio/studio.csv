@@ -1,12 +1,12 @@
 Designator,Comment,Parameter 1,nBlocksParameter1,Parameter 2,nBlocksParameter2,Parameter 3,nBlocksParameter3,ComponentLink1URL
 
 "N1","GPIN","Pin","PA_9","PinMode","PullDown","","","https://github.com/nblocksStudioNodes/nblocks_gpin"
-"N2","ValueTrig","OutValue","1","","","","","https://github.com/nBlocksStudioNodes/nblocks_ValueTrig"
+"N2","ValueTrig","OutValue","0x31","","","","","https://github.com/nBlocksStudioNodes/nblocks_ValueTrig"
 "N3","GPIN","Pin","PB_5","PinMode","PullDown","","","https://github.com/nblocksStudioNodes/nblocks_gpin"
-"N4","ValueTrig","OutValue","2","","","","","https://github.com/nBlocksStudioNodes/nblocks_ValueTrig"
+"N4","ValueTrig","OutValue","0x32","","","","","https://github.com/nBlocksStudioNodes/nblocks_ValueTrig"
 "N5","L298","IN1","PB_10","IN2","PA_8","EN","PB_3","https://github.com/nBlocksStudioNodes/nblocks_l298"
 "N6","GPIN","Pin","PA_10","PinMode","PullDown","","","https://github.com/nblocksStudioNodes/nblocks_gpin"
-"N7","ValueTrig","OutValue","0","","","","","https://github.com/nBlocksStudioNodes/nblocks_ValueTrig"
+"N7","ValueTrig","OutValue","0x30","","","","","https://github.com/nBlocksStudioNodes/nblocks_ValueTrig"
 "N8","StringFormat","formatString","""Value: %d\n""","","","","","https://github.com/nBlocksStudioNodes/nblocks_stringformat"
 "N9","StringSerial","pinTX","USBTX","pinRX","USBRX","","","https://github.com/nBlocksStudioNodes/nblocks_stringserial"
 "N10","Ticker","","1000","","","","","https://github.com/nBlocksStudioNodes/nblocks_ticker"
